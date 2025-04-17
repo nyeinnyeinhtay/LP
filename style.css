@@ -1,0 +1,78 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+  }
+
+  .navbar {
+    background-color: #ffccdd;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    color: #fff;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .products {
+    padding: 60px 0;
+  }
+
+  .product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+
+  .product-card:hover {
+    transform: scale(1.03);
+  }
+
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-card .card-body {
+    padding: 20px;
+  }
+
+  .cta-banner {
+    background-color: #f8c1c8;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+
+  .cta-banner a {
+    background-color: #ff6699;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  footer {
+    background-color: #ffccdd;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
